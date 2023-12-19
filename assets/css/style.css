@@ -207,6 +207,14 @@ body {
   width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.card-text {
+  line-height: 1.7;
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -351,6 +359,42 @@ body {
 /*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
+
+.service-banner {
+  display: none;
+}
+
+.service {
+  padding-block-end: 0;
+}
+
+.service .section-title {
+  margin-block-end: 50px;
+}
+
+.service-list {
+  display: grid;
+  gap: 15px;
+}
+
+.service-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  min-height: 100%;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--radius-4);
+  padding: 30px;
+}
+
+.service-card .card-icon {
+  width: 50px;
+  flex-shrink: 0;
+}
+
+.service-card .card-title {
+  margin-block-end: 8px;
+}
 
 /*-----------------------------------*\
   #ABOUT
